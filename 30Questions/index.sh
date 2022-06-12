@@ -1,7 +1,7 @@
 #!/bin/bash
 source "utility.sh"
-
-read -p "Enter your Question Number " number
+number=$1
+# read -p "Enter your Question Number " number
 case $number in
   1)HelloWorld;;
   2)UseEchoCommad;;  
