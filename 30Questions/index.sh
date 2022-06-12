@@ -1,5 +1,5 @@
 #!/bin/bash
-source "utility.sh"
+source "/home/scripts/Shell_Script/30Questions/utility.sh"
 number=$1
 # read -p "Enter your Question Number " number
 case $number in
